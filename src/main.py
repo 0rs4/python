@@ -1,9 +1,7 @@
-def count_vowels(sentence):
-  count = 0
-  vowels = ['a','e','i','o','u','A','E','I','O','U']
-  for char in sentence:
-     if char in vowels:
-        count += 1
-  return count
+base_num = int(input('Give me the base number: '))
 
-print(count_vowels("Hello World"))
+power_num = int(input('Give me the power number: '))
+
+result = base_num ** power_num
+
+print('Your result is: ', result)
